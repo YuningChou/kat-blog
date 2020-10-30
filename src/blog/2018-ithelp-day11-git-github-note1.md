@@ -47,7 +47,7 @@ commit 之後在輸入git status的話就會通知工作目錄是乾淨的沒有
 - *.html  忽略所有html為副檔名的檔案
 - 資料夾名／ 忽略資料夾 （比如css/ 就忽略css資料夾) 
 
-對我來說 gitignore是新知，![](http://upload-images.jianshu.io/upload_images/4119783-b629137e67c33712.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+對我來說 gitignore是新知，![](https://upload-images.jianshu.io/upload_images/4119783-b629137e67c33712.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 之前雖然用了github ，不過就是按照github提供的流程來做init add commit 這類的事，可以開始忽略像是node_modules 、sass之類的資料夾了。
 
 以上是看著[六角學院-掌握 Git & Github 程式時光機](https://www.udemy.com/learninggit/learn/v4/content) 這個課程學的（才剛開始）。

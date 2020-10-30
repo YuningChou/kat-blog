@@ -47,7 +47,7 @@ abbr, acronym {
 reset.css的用途，就是讓各個瀏覽器統一css，讓其歸零。
 在寫網頁的時候先引入reset.css然後再引入自己的css去覆蓋reset.css。
 不是說程式越少越好嗎？為什麼要做這種“覆蓋”的動作？
-![???](http://upload-images.jianshu.io/upload_images/4119783-8d05340bdc6b1b72.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![???](https://upload-images.jianshu.io/upload_images/4119783-8d05340bdc6b1b72.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 嗯...喔..這網站還擺了normalize.css
 
 這個margin:0; padding:0; 比如div這個標籤沒默認。估了一下，有人在stackoverflow整理了[各家瀏覽器的default styles](https://stackoverflow.com/questions/6867254/browsers-default-css-for-html-elements)。

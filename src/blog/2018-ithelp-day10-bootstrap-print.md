@@ -45,9 +45,9 @@ Bootstrap在工作當中算是很常使用
 <a href="https://www.google.com">google</a>
 ```
 新增一個html 放上面這個a標籤連結試試 , 會有下面兩種結果
-![沒有bootstrap css的ctrl+p列印](http://upload-images.jianshu.io/upload_images/4119783-d6de967aa66d0f29.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![沒有bootstrap css的ctrl+p列印](https://upload-images.jianshu.io/upload_images/4119783-d6de967aa66d0f29.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![引入bootstrap css的ctrl+p列印](http://upload-images.jianshu.io/upload_images/4119783-48e5f9ddc42763dd.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![引入bootstrap css的ctrl+p列印](https://upload-images.jianshu.io/upload_images/4119783-48e5f9ddc42763dd.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 解決方法是在@media print另外為a[href] content 給個 " "
 ```

@@ -29,7 +29,7 @@ var dataset = [ 5, 10, 15, 20, 25 ];		d3.select("body").selectAll("div").data(da
 			return d + "px";
 		});
 ```
-![長這樣](http://upload-images.jianshu.io/upload_images/4119783-53ca9f7247f8bebb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![長這樣](https://upload-images.jianshu.io/upload_images/4119783-53ca9f7247f8bebb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 美化一下
 ```
@@ -40,7 +40,7 @@ var dataset = [ 5, 10, 15, 20, 25 ];		d3.select("body").selectAll("div").data(da
 		return barHeight + "px";
 	});
 ```
-![長高](http://upload-images.jianshu.io/upload_images/4119783-95d895d82ac4aece.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![長高](https://upload-images.jianshu.io/upload_images/4119783-95d895d82ac4aece.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 隨機資料
 ```
@@ -68,7 +68,7 @@ circles.attr("cx" , function(d, i){
 	return d;
 });
 ```
-![svg](http://upload-images.jianshu.io/upload_images/4119783-019464cc6c2bd76a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![svg](https://upload-images.jianshu.io/upload_images/4119783-019464cc6c2bd76a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 cx 是圓形中心點的 x 軸，d的值仍然是dataset 內的，i 是被自動產生，這裡 i 可以隨意命名。
 cy 是圓形中心點的 y 軸，把 cy 設定為 h 的一半，因為 h 是整個 svg 的高度，將 y 軸設定 h 除以 2 ，可以讓所有圓形都對齊垂直中心點。
@@ -81,9 +81,9 @@ cy 是圓形中心點的 y 軸，把 cy 設定為 h 的一半，因為 h 是整
 	return d/2;
 });
 ```
-![svg顏色](http://upload-images.jianshu.io/upload_images/4119783-40dbd35ee6d7a87c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![svg顏色](https://upload-images.jianshu.io/upload_images/4119783-40dbd35ee6d7a87c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-![div 與 svg 的呈現都是 dataset 內同樣的資料](http://upload-images.jianshu.io/upload_images/4119783-0a843c36bcc6cdee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![div 與 svg 的呈現都是 dataset 內同樣的資料](https://upload-images.jianshu.io/upload_images/4119783-0a843c36bcc6cdee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 

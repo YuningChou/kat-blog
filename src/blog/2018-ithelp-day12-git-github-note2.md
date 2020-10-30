@@ -21,7 +21,7 @@ category: ['2018 it邦幫忙鐵人賽']
 
 ## Github 遠端repository
 *  從遠端拉回本地  git clone 
-![git clone](http://upload-images.jianshu.io/upload_images/4119783-c85dd393d053ff74.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![git clone](https://upload-images.jianshu.io/upload_images/4119783-c85dd393d053ff74.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 *  git push 把本地的更新的資料推回遠端repository
 
 ## branch 分支

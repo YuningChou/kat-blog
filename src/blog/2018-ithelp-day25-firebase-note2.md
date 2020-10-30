@@ -21,4 +21,4 @@ for(variable in [object | array]) {
 
 ### 排序
 抓到路徑 >> 排序(屬性) >> forEach 依序撈出資料
-![](http://upload-images.jianshu.io/upload_images/4119783-1ebfb2a4b0c27223.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/4119783-1ebfb2a4b0c27223.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
