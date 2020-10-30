@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import MainLayout from './../layouts/main.layout';
-import { List, Avatar,Tag } from 'antd';
+import { Row, Col, List, Avatar,Tag, Card } from 'antd';
 import { Post } from './../types/post.type';
 
 export const AllBlogsQuery = graphql`
@@ -28,6 +28,7 @@ const Home = ({ data }) => (
     <List
       itemLayout="vertical"
       size="large"
+      className="postList"
       dataSource={data.allMarkdownRemark.edges}
       renderItem={(post: Post) => {
         const { title, author, date, description, path, category } = post.node.frontmatter;
@@ -52,9 +53,8 @@ const Home = ({ data }) => (
         </List.Item>
         )
       }
-    
-       }
-    />
+    }
+  />
   </MainLayout>
 );
 
