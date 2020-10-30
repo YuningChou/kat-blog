@@ -1,19 +1,20 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
+import { Tabs, Pagination, Divider } from 'antd';
+import { BookOutlined, ExperimentOutlined } from '@ant-design/icons';
 import MainLayout from './../layouts/main.layout';
-import { Row, Col, List, Avatar,Tag, Card } from 'antd';
-import { Post } from './../types/post.type';
+import Components from './../components';
 
 export const AllBlogsQuery = graphql`
-  query MyQuery {
-    allMarkdownRemark {
+  query PostList {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           frontmatter {
             title
             path
             description
-            date
+            date(formatString: "YYYY-MM-DD")
             author
             category
           }
@@ -25,36 +26,31 @@ export const AllBlogsQuery = graphql`
 
 const Home = ({ data }) => (
   <MainLayout>
-    <List
-      itemLayout="vertical"
-      size="large"
-      className="postList"
-      dataSource={data.allMarkdownRemark.edges}
-      renderItem={(post: Post) => {
-        const { title, author, date, description, path, category } = post.node.frontmatter;
-        return (
-          <List.Item
-            key={path}
-            extra={
-              <img
-                width={272}
-                alt="blog-img"
-                src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
-              />
-            }
-            actions={[author, `發佈於 ${date}`]}
-        >
-          <List.Item.Meta 
-            avatar={<Avatar size="large" src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-            title={<Link to={path}>{title}</Link>}
-            description={category.map((item) => {return <Tag key={item}>{item}</Tag>})}
-          />
-          {description}
-        </List.Item>
-        )
-      }
-    }
-  />
+    <Tabs className="main-tabs" defaultActiveKey="blog">
+      <Tabs.TabPane
+        tab={
+          <span>
+            <BookOutlined />
+            Blog
+          </span>
+        }
+        key="blog"
+      >
+        <Components.PostList data={data}/>
+      </Tabs.TabPane>
+      <Tabs.TabPane
+        tab={
+          <span>
+            <ExperimentOutlined />
+            Projects
+          </span>
+        }
+        key="projects"
+      >
+        <Components.ProjectList />
+      </Tabs.TabPane>
+    </Tabs>
+    
   </MainLayout>
 );
 

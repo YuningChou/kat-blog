@@ -1,7 +1,9 @@
-import PostList from './postList';
 import MeCard from './meCard';
+import PostList from './postList';
+import ProjectList from './projectList';
 
 export default {
-    PostList,
     MeCard,
+    PostList,
+    ProjectList,
 }

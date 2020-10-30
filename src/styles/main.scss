@@ -1,4 +1,5 @@
-$color-primary: #246d83;
+$color-primary: #ff4d4f;
+$color-second: #096dd9;
 .layout {
   .ant-layout-header {
     background: $color-primary;
@@ -13,6 +14,7 @@ $color-primary: #246d83;
   }
   .content {
     padding: 24px 50px;
+    min-height: calc(100vh - 134px);
     .nameCard {
       h1 {
         text-align: center;
@@ -27,8 +29,18 @@ $color-primary: #246d83;
         margin: 0 auto 20px;
       }
     }
-    .postList {
+    .main-tabs {
       background: white;
+      .ant-tabs-tab {
+        margin: 0;
+        padding: 12px 20px;
+      }
+      .ant-list-pagination {
+        margin: 24px;
+      }
+    }
+    .projectList {
+      padding: 0 16px;
     }
   }
 }

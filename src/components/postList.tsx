@@ -1,16 +1,40 @@
 import React from "react";
 import { Link } from "gatsby";
-import "./../styles/postList.scss";
+import { List, Tag } from 'antd';
+import { Post } from './../types/post.type';
 
-const PostList = ({ title, author, date, description, path }) => (
-  <div className="post">
-    <h3 className="post-title">{ title }</h3>
-    <p className="post-description">{ description }</p>
-    <p className="post-written-by">
-      Written by { author } on { date }
-    </p>
-    <Link to={ path }>Read more</Link>
-  </div>
+const PostList = ({ data }) => (
+  <>
+    <List
+        itemLayout="vertical"
+        size="large"
+        dataSource={data?.allMarkdownRemark.edges}
+        renderItem={(post: Post) => {
+          const { title, author, date, description, path, category } = post.node.frontmatter;
+          return (
+            <List.Item
+              key={path}
+              extra={
+                <img
+                  width={272}
+                  alt="blog-img"
+                  src="https://picsum.photos/250/150"
+                />
+              }
+              actions={[author, `發佈於 ${date}`]}
+          >
+            <List.Item.Meta 
+              title={<Link to={path}>{title}</Link>}
+              description={category.map((item) => {return <Tag key={item}>{item}</Tag>})}
+            />
+            {description}
+          </List.Item>
+          )
+        }
+      }
+      pagination={{pageSize: 5}}
+    />
+  </>
 );
 
 export default PostList;
