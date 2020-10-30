@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import MainLayout from './../layouts/main.layout';
 import './../styles/blogTemplate.scss';
+import { Button } from 'antd';
 
 export const postQuery = graphql`
   query postList($path: String!) {
@@ -23,7 +24,7 @@ const Template = ({data}) => {
     return(
         <MainLayout>
             <div className='blogTemplate'>
-                <Link to="/blog">Back to blogs</Link>
+                <Button type="primary"><Link to="/">Back to blogs</Link></Button>
                 <h1 className="blogTemplate-title">{title}</h1>
                 <p className='blogTemplate-posted-by'>Posted by {author} on {date}</p>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
