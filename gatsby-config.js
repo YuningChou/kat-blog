@@ -9,6 +9,6 @@ module.exports = {
         name: `blog`,
         path: `${__dirname}/src/blog`,
       },
-    }
+    },
   ],
 }

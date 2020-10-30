@@ -1,17 +1,21 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Card, Avatar } from 'antd';
-import { AntDesignOutlined } from '@ant-design/icons';
+import { Card, Avatar, Divider } from 'antd';
+import { GithubOutlined, LaptopOutlined, EnvironmentOutlined, MailOutlined } from '@ant-design/icons';
 
 const MeCard = () => (
-  <Card>
+  <Card className="nameCard">
     <Avatar
-      style={{display:'block', margin: '0 auto 30px'}}
-      size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 100 }}
-      icon={<AntDesignOutlined />}
+      className="nameCard-avatar"
+      size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 100, xxl: 120 }}
+      icon={<GithubOutlined />}
     />
-    <p>Card content</p>
-    <p>Card content</p>
+    <h1>Kat Chou</h1>
+    <h5>Hey there, I'm Kat! ✨ </h5>
+    <p><LaptopOutlined /> Front-end developer</p>
+    <p><EnvironmentOutlined /> Taipei</p>
+    <p><MailOutlined /> chouyuning@gmail.com</p>
+    <Divider dashed />
   </Card>
 );
 

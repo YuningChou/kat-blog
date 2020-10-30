@@ -6,7 +6,9 @@ import "./../styles/main.scss";
 
 const MainLayout = ({ children }) => (
     <Layout className="layout">
-      <Layout.Header><Components.Nav /></Layout.Header>
+      <Layout.Header>
+        <h1>- K A T -</h1>
+      </Layout.Header>
       <Layout.Content className="content">
         <Row gutter={16}>
           <Col xs={{span: 24}} lg={{span: 6}}>
