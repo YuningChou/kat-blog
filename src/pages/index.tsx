@@ -30,7 +30,6 @@ export const AllBlogsQuery = graphql`
 `
 
 const Home = ({ data }) => {
-  console.log(data)
   return (
     <MainLayout>
       <Tabs className="main-tabs" defaultActiveKey="blog">

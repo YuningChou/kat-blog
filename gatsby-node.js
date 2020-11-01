@@ -7,7 +7,7 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`
     {
       allMarkdownRemark {
-        group {
+        group(field: frontmatter___tags) {
           tag: fieldValue
           totalCount
         }
