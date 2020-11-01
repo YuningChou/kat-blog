@@ -4,7 +4,7 @@ date: '2018-02-13'
 title: 'hexo-換電腦'
 author: 'Kat Chou'
 description: '使用 hexo 建置 blog 部署到 github 時，更換電腦的操作。'
-category: ['hexo', 'blog']
+tags: ['hexo', 'blog']
 ---
 
 如果你想換台電腦寫部落格

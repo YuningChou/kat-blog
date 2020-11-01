@@ -4,7 +4,7 @@ date: '2017-12-29'
 title: 'Day 26 : bootstrap tab hash （瓶#間）'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 最近在切網頁的時候又遇到 bootstrap 的問題了，目前是希望能夠在 url 可以 # 到 tab ，也就是從 A 頁面點某個元素可以到 www.ooxx.com/B.asp#ooxx  B 頁面的 #ooxx 區塊 的這種情況。

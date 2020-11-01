@@ -4,7 +4,7 @@ date: '2017-12-04'
 title: 'Day1: 起個頭'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 這次是第一次參加，就只希望能夠堅持下去完成30天的任務。

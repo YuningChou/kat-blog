@@ -4,7 +4,7 @@ date: '2017-12-11'
 title: 'Day8 : 做個DatePicker (二) - 數據'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 加入日曆數據的 js

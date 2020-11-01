@@ -4,7 +4,7 @@ date: '2018-05-16'
 title: '我使用 Vue 的起手式(vue-cli + sass + bootstrap + fontawesome)'
 author: 'Kat Chou'
 description: ''
-category: ['vue', 'sass', 'bootstrap']
+tags: ['vue', 'sass', 'bootstrap']
 ---
 
 初學者筆記 

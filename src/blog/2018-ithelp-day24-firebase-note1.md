@@ -4,7 +4,7 @@ date: '2017-12-27'
 title: 'Day 24 : firebase (一)'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 ## firebase 資料庫

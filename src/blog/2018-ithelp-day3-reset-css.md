@@ -4,7 +4,7 @@ date: '2017-12-06'
 title: 'Day3 : 引入reset.css之後'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 從一些網站當中右鍵檢視網頁原始碼，會看到這麼一隻css - reset.css

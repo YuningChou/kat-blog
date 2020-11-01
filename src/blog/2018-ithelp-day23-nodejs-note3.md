@@ -4,7 +4,7 @@ date: '2017-12-26'
 title: 'Day 23 : Node.js 跟著做（三）'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 ## npm

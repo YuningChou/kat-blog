@@ -4,7 +4,7 @@ date: '2017-12-28'
 title: 'Day 25 : firebase (二)'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 今天的進度到了 todo list  增加的功能。

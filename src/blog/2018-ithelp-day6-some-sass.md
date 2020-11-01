@@ -4,7 +4,7 @@ date: '2017-12-09'
 title: 'Day6 : 幾個Sass寫法'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 研究幾個看過卻還未明白的sass寫法

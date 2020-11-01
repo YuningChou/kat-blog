@@ -4,7 +4,7 @@ date: '2019-03-20'
 title: 'ant-design form multipart/form-data'
 author: 'Kat Chou'
 description: 'antd 上傳圖片'
-category: ['Ant-Design', 'F2E']
+tags: ['Ant-Design', 'F2E']
 ---
 
 目前公司前端使用 React 、Ant - Design 

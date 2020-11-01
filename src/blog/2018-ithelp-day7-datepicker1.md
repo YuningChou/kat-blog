@@ -4,7 +4,7 @@ date: '2017-12-10'
 title: 'Day7 : 做個DatePicker (一) - 靜態結構+樣式'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 日曆是網頁上常用的工具，也來自己做做看

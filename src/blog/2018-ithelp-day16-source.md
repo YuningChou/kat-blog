@@ -4,7 +4,7 @@ date: '2017-12-19'
 title: 'Day 16 : 1/2'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 看標題就知道是偷懶用的文，當然之後應該也懶得補。

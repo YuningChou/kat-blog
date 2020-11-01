@@ -7,6 +7,10 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`
     {
       allMarkdownRemark {
+        group {
+          tag: fieldValue
+          totalCount
+        }
         edges {
           node {
             frontmatter {

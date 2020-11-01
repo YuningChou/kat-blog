@@ -10,5 +10,5 @@ export interface Frontmatter {
     date: string; 
     description: string; 
     path: string;
-    category: string[];
+    tags: string[];
 }

@@ -4,7 +4,7 @@ date: '2017-12-17'
 title: 'Day 14 : d3 學習筆記 - 資料'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 [d3](https://d3js.org/) 

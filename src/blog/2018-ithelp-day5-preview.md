@@ -4,7 +4,7 @@ date: '2017-12-08'
 title: 'Day5 : 預覽'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 今天來做一個即時預覽的效果。

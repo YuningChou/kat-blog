@@ -1,16 +1,21 @@
-$color-primary: #ff4d4f;
-$color-second: #096dd9;
+$color-primary: #2bbc8a;
+$color-second: #4d9aff;
+$color-bg: #1c2022;
 .layout {
+  background: $color-bg;
   .ant-layout-header {
-    background: $color-primary;
+    background: $color-bg;
     h1 {
-      text-shadow: 4px 1px black;
       color: white;
       text-align: center;
       font-size: 55px;
       font-weight: 900;
       font-style: italic;
     }
+  }
+  .ant-layout-footer {
+    background: $color-bg;
+    color: white;
   }
   .content {
     padding: 24px 50px;
@@ -37,6 +42,9 @@ $color-second: #096dd9;
       }
       .ant-list-pagination {
         margin: 24px;
+      }
+      .tags {
+        padding: 0 16px;
       }
     }
     .projectList {

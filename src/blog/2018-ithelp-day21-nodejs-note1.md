@@ -4,7 +4,7 @@ date: '2017-12-24'
 title: 'Day 21 : Node.js 跟著做(一)'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 [node.js github 連結](https://github.com/nodejs)

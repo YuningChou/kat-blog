@@ -4,7 +4,7 @@ date: '2017-12-07'
 title: 'Day4 : 人人都說Sass好，所以我來參一腳'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 都說Sass消除樣式表冗余、還有變數跟繼承的概念等等的，說有多好用就有多好用...

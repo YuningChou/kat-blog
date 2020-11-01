@@ -10,7 +10,7 @@ const PostList = ({ data }) => (
         size="large"
         dataSource={data?.allMarkdownRemark.edges}
         renderItem={(post: Post) => {
-          const { title, author, date, description, path, category } = post.node.frontmatter;
+          const { title, author, date, description, path, tags } = post.node.frontmatter;
           return (
             <List.Item
               key={path}
@@ -25,7 +25,7 @@ const PostList = ({ data }) => (
           >
             <List.Item.Meta 
               title={<Link to={path}>{title}</Link>}
-              description={category.map((item) => {return <Tag key={item}>{item}</Tag>})}
+              description={tags.map((item) => {return <Tag key={item}>{item}</Tag>})}
             />
             {description}
           </List.Item>

@@ -4,7 +4,7 @@ date: '2017-12-20'
 title: 'Day 17 : 隨機圓角'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 大概是這麼一個東西，目前雖然還派不上用場，但覺得可愛。

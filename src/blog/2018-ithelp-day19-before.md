@@ -4,7 +4,7 @@ date: '2017-12-22'
 title: 'Day 19 : before() - JavaScript & jQuery'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 ```

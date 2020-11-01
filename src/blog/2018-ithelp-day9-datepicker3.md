@@ -4,7 +4,7 @@ date: '2017-12-12'
 title: 'Day9 : 做個DatePicker (三) - 事件'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 ## 點擊input 展開收起日曆的事件

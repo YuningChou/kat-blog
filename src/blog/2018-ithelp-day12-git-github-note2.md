@@ -4,7 +4,7 @@ date: '2017-12-15'
 title: 'Day 12 : Git & Github 學習筆記（二）'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 ## 取消索引

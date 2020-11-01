@@ -4,7 +4,7 @@ date: '2019-03-20'
 title: '畫面刻完後想加個http server'
 author: 'Kat Chou'
 description: ''
-category: ['node.js', 'F2E']
+tags: ['node.js', 'F2E']
 ---
 
 筆記一下 使用node.js
@@ -15,13 +15,15 @@ category: ['node.js', 'F2E']
 
 ### Step2
 
-```npm install http-server```
+`
+npm install http-server
+`
 
 ### Step3
 
 到 package.json 的 script 的地方設定一下
 
-```js
+```javascript
 "scripts": {
   "start": "http-server -a 127.0.0.1 -p 8080"
 }

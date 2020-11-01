@@ -5,12 +5,15 @@
         font-size: 2rem;
         margin-bottom: 0;
     }
-    pre, code, kbd, samp {
+    code {
         background-color: #223448;
         color: white;
         font-size: 1em;
         font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
         padding: 5px 10px;
         border-radius: 5px;
+    }
+    deckgo-highlight-code.deckgo-highlight-code-carbon.deckgo-highlight-code-theme-dracula.hydrated {
+        box-shadow: none;
     }
 }

@@ -1,13 +1,18 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { Tabs, Pagination, Divider } from 'antd';
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+import { Tabs, Tag, Divider } from 'antd';
 import { BookOutlined, ExperimentOutlined } from '@ant-design/icons';
 import MainLayout from './../layouts/main.layout';
 import Components from './../components';
 
 export const AllBlogsQuery = graphql`
-  query PostList {
+  query {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      group(field: frontmatter___tags) {
+        tag: fieldValue
+        totalCount
+      }
       edges {
         node {
           frontmatter {
@@ -16,7 +21,7 @@ export const AllBlogsQuery = graphql`
             description
             date(formatString: "YYYY-MM-DD")
             author
-            category
+            tags
           }
         }
       }
@@ -24,34 +29,42 @@ export const AllBlogsQuery = graphql`
   }
 `
 
-const Home = ({ data }) => (
-  <MainLayout>
-    <Tabs className="main-tabs" defaultActiveKey="blog">
-      <Tabs.TabPane
-        tab={
-          <span>
-            <BookOutlined />
-            Blog
-          </span>
-        }
-        key="blog"
-      >
-        <Components.PostList data={data}/>
-      </Tabs.TabPane>
-      <Tabs.TabPane
-        tab={
-          <span>
-            <ExperimentOutlined />
-            Projects
-          </span>
-        }
-        key="projects"
-      >
-        <Components.ProjectList />
-      </Tabs.TabPane>
-    </Tabs>
-    
-  </MainLayout>
-);
-
+const Home = ({ data }) => {
+  console.log(data)
+  return (
+    <MainLayout>
+      <Tabs className="main-tabs" defaultActiveKey="blog">
+        <Tabs.TabPane
+          tab={
+            <span>
+              <BookOutlined />
+              Blog
+            </span>
+          }
+          key="blog"
+        >
+          <div className="tags">
+            {data.allMarkdownRemark.group.map((item) => {
+              return <Tag key={item.tag}>{item.tag}</Tag>
+            })}
+          </div>
+          <Divider />
+          <Components.PostList data={data}/>
+        </Tabs.TabPane>
+        <Tabs.TabPane
+          tab={
+            <span>
+              <ExperimentOutlined />
+              Projects
+            </span>
+          }
+          key="projects"
+        >
+          <Components.ProjectList />
+        </Tabs.TabPane>
+      </Tabs>   
+    </MainLayout>
+  )
+};
+deckDeckGoHighlightElement();
 export default Home;

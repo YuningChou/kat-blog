@@ -4,7 +4,7 @@ date: '2017-12-30'
 title: 'Day 27 : Bootstrap Less 使用方法'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 在使用Bootstrap為樣式框架的專案上，如果要改樣式:

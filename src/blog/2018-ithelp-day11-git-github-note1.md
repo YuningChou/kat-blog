@@ -4,7 +4,7 @@ date: '2017-12-14'
 title: 'Day 11 : Git & Github 學習筆記（一）'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 環境建置

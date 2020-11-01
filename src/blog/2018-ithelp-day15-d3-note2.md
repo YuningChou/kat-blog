@@ -4,7 +4,7 @@ date: '2017-12-18'
 title: 'Day 15 : d3 學習筆記 - 用資料繪圖'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 在 d3 如果要把一個類別加到某個元素，會用 selection.attr() 函式。

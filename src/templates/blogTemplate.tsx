@@ -19,7 +19,7 @@ export const postQuery = graphql`
   }
 `;
 
-const Template = ({data}) => {
+const Template = ({ data }) => {
     const post = data.markdownRemark;
     const { title, author, date } = post.frontmatter;
     return(

@@ -4,7 +4,7 @@ date: '2017-12-31'
 title: 'Day 28 : css 的 link 和 @import'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 link

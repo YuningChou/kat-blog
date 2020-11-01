@@ -4,7 +4,7 @@ date: '2018-01-01'
 title: 'Day 29 : 列印'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 之前有提到 bootstrap 列印問題，現在筆記一下其他列印相關css。

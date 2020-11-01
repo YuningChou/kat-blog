@@ -4,7 +4,7 @@ date: '2017-12-13'
 title: 'Day 10 : Bootstrap 列印'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 Bootstrap在工作當中算是很常使用

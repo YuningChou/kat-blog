@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Layout, Row, Col, Card } from 'antd';
+import { Layout, Row, Col } from 'antd';
 import Components from "./../components";
 import "./../styles/main.scss";
 
 const MainLayout = ({ children }) => (
     <Layout className="layout">
       <Layout.Header>
-        <h1>- K A T -</h1>
+        <h1>K A T</h1>
       </Layout.Header>
       <Layout.Content className="content">
         <Row gutter={16}>

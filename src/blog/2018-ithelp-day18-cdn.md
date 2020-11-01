@@ -4,7 +4,7 @@ date: '2017-12-21'
 title: 'Day 18 : cdn'
 author: 'Kat Chou'
 description: ''
-category: ['2018 it邦幫忙鐵人賽']
+tags: ['2018 it邦幫忙鐵人賽']
 ---
 
 在工作上遇到一個狀況，客戶說 “我們頁面這個區輪播怎麼不會動了？”
