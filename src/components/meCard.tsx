@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Card, Avatar, Divider, Button, Row, Col } from 'antd';
+import { Card, Avatar, Divider, Button, Row, Col, Progress } from 'antd';
 import { GithubOutlined, LaptopOutlined, EnvironmentOutlined, MailOutlined, LinkedinOutlined } from '@ant-design/icons';
 
 const MeCard = () => (
@@ -32,6 +32,33 @@ const MeCard = () => (
           target="_blank" />
       </Col>
     </Row>
+    <Divider orientation="left">Front-end</Divider>
+      <ul>
+        <li>HTML</li>
+        <li>CSS(SASS)</li>
+        <li>Javascript (ES6)</li>
+        <li>React.js</li>
+        <li>Vue.js</li>
+      </ul>
+    <Divider orientation="left">User Interface</Divider>
+      <ul>
+        <li>Responsive Web Design (RWD) </li>
+        <li>Bootstrap</li>
+        <li>Ant-Design</li>
+        <li>Material-UI</li>
+      </ul>
+    <Divider orientation="left">Cloud Service</Divider>
+      <ul>
+        <li>Firebase Authentication </li>
+        <li>Firebase Storage / Firestore</li>
+      </ul>
+    <Divider orientation="left">Tools</Divider>
+      <ul>
+        <li>Git/GitHub/GitLab </li>
+        <li>ESLint</li>
+        <li>Jest</li>
+        <li>Adobe Photoshop</li>
+      </ul>
   </Card>
 );
 
