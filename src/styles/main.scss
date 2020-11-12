@@ -49,6 +49,9 @@ $color-bg: #1c2022;
     }
     .projectList {
       padding: 0 16px;
+      .ant-image {
+        height: 180px
+      }
     }
   }
 }
