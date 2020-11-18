@@ -11,10 +11,10 @@ const MainLayout = ({ children }) => (
       </Layout.Header>
       <Layout.Content className="content">
         <Row gutter={16}>
-          <Col xs={{span: 24}} lg={{span: 6}}>
+          <Col sm={{span: 24}} md={{span: 24}} lg={{span: 6}}>
             <Components.MeCard />
           </Col>
-          <Col xs={{span: 24}} lg={{span: 18}}>
+          <Col sm={{span: 24}} md={{span: 24}} lg={{span: 18}}>
             { children }  
           </Col>
         </Row>

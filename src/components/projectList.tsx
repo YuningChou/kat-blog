@@ -5,7 +5,7 @@ import { GithubOutlined, LinkOutlined } from '@ant-design/icons';
 
 const ProjectList = () => (
   <Row gutter={[8,8]} className="projectList">
-      <Col span={8}>
+      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -40,7 +40,7 @@ const ProjectList = () => (
             />
         </Card>
       </Col>
-      <Col span={8}>
+      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -75,7 +75,7 @@ const ProjectList = () => (
             />
         </Card>
       </Col>
-      <Col span={8}>
+      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -106,7 +106,7 @@ const ProjectList = () => (
             />
         </Card>
       </Col>
-      <Col span={8}>
+      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -143,7 +143,7 @@ const ProjectList = () => (
             />
         </Card>
       </Col>
-      <Col span={8}>
+      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -174,7 +174,7 @@ const ProjectList = () => (
             />
         </Card>
       </Col>
-      <Col span={8}>
+      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -209,7 +209,7 @@ const ProjectList = () => (
             />
         </Card>
       </Col>
-      <Col span={8}>
+      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>

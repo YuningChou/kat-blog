@@ -8,7 +8,7 @@ const MeCard = () => (
     <Avatar
       className="nameCard-avatar"
       src='/avatar.png'
-      size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 100, xxl: 120 }}
+      size={{ xs: 100, sm: 100, md: 100, lg: 100, xl: 100, xxl: 120 }}
     />
     <h1>Kat Chou</h1>
     <h5>Hey there, I'm Kat! ✨ </h5>
@@ -32,33 +32,43 @@ const MeCard = () => (
           target="_blank" />
       </Col>
     </Row>
-    <Divider orientation="left">Front-end</Divider>
-      <ul>
-        <li>HTML</li>
-        <li>CSS(SASS)</li>
-        <li>Javascript (ES6)</li>
-        <li>React.js</li>
-        <li>Vue.js</li>
-      </ul>
-    <Divider orientation="left">User Interface</Divider>
-      <ul>
-        <li>Responsive Web Design (RWD) </li>
-        <li>Bootstrap</li>
-        <li>Ant-Design</li>
-        <li>Material-UI</li>
-      </ul>
-    <Divider orientation="left">Cloud Service</Divider>
-      <ul>
-        <li>Firebase Authentication </li>
-        <li>Firebase Storage / Firestore</li>
-      </ul>
-    <Divider orientation="left">Tools</Divider>
-      <ul>
-        <li>Git/GitHub/GitLab </li>
-        <li>ESLint</li>
-        <li>Jest</li>
-        <li>Adobe Photoshop</li>
-      </ul>
+    <Row>
+      <Col sm={{span: 24}}  md={{span: 12}} lg={{span: 24}}>
+        <Divider orientation="left">Front-end</Divider>
+        <ul>
+          <li>HTML</li>
+          <li>CSS(SASS)</li>
+          <li>Javascript (ES6)</li>
+          <li>React.js</li>
+          <li>Vue.js</li>
+        </ul>
+      </Col>
+      <Col sm={{span: 24}}  md={{span: 12}} lg={{span: 24}}>
+        <Divider orientation="left">User Interface</Divider>
+        <ul>
+          <li>Responsive Web Design (RWD) </li>
+          <li>Bootstrap</li>
+          <li>Ant-Design</li>
+          <li>Material-UI</li>
+        </ul>
+      </Col>
+      <Col sm={{span: 24}}  md={{span: 12}} lg={{span: 24}}>
+        <Divider orientation="left">Cloud Service</Divider>
+        <ul>
+          <li>Firebase Authentication </li>
+          <li>Firebase Storage / Firestore</li>
+        </ul>
+      </Col>
+      <Col sm={{span: 24}}  md={{span: 12}} lg={{span: 24}}>
+        <Divider orientation="left">Tools</Divider>
+        <ul>
+          <li>Git/GitHub/GitLab </li>
+          <li>ESLint</li>
+          <li>Jest</li>
+          <li>Adobe Photoshop</li>
+        </ul>
+      </Col>
+    </Row>
   </Card>
 );
 
