@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { Card, Avatar, Divider, Button, Row, Col } from 'antd';
-import { GithubOutlined, LaptopOutlined, EnvironmentOutlined, MailOutlined, LinkedinOutlined } from '@ant-design/icons';
+import { GithubOutlined, LaptopOutlined, EnvironmentOutlined, MailOutlined, LinkedinOutlined, CalendarOutlined } from '@ant-design/icons';
 
 const MeCard = () => (
   <Card className="nameCard" bordered={false}>
@@ -14,7 +14,8 @@ const MeCard = () => (
     <h1>Kat Chou</h1>
     <h5>Hey there, I'm Kat! ✨ </h5>
     <p><LaptopOutlined /> Front-end developer</p>
-    <p><EnvironmentOutlined /> Taipei</p>
+    <p><EnvironmentOutlined /> New Taipei City, Taiwan</p>
+    <p><CalendarOutlined /> May 12, 1989</p>
     <p><MailOutlined /> chouyuning@gmail.com</p>
     <Divider dashed />
     <Row gutter={8}>

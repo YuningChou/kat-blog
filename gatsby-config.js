@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Kat`,
-    author: "Kat.Chou"
+    title: 'Kat.Chou',
+    description: 'Kat.Chou',
   },
   plugins: [
     `gatsby-plugin-sass`, 
     `gatsby-plugin-antd`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,10 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Layout, Row, Col } from 'antd';
+import { Layout, Row, Col, BackTop } from 'antd';
 import Components from "./../components";
 import "./../styles/main.scss";
 
 const MainLayout = ({ children }) => (
+  <>
+    <BackTop visibilityHeight={100} />
+    <Components.SEO/>
     <Layout className="layout">
       <Layout.Header>
         <h1>K A T</h1>
@@ -21,6 +24,7 @@ const MainLayout = ({ children }) => (
       </Layout.Content>
       <Layout.Footer style={{ textAlign: 'center' }}>©2020 Kat Chou</Layout.Footer>
     </Layout>
+  </>
 );
 
 Layout.propTypes = {
