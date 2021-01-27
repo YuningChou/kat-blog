@@ -20,42 +20,42 @@ const About = () => (
     <Typography.Paragraph>一開始就是想試試看用 gatsby 建一個 blog；預計這邊的內容會久久才更新一次，大部分會是零散的技術相關筆記，或是生活隨便亂寫心得文。</Typography.Paragraph>
     <Typography.Paragraph strong type="danger">想看 Blog 就點擊「 Blog 」頁籤，想看我的專案經驗就點擊「 Projects 」頁籤。</Typography.Paragraph>
     <Row gutter={[16, 16]}>
-      <Col span={8}>
+      <Col xs={24} sm={12} md={12} lg={8} xl={8}>
         <Card>
           <img src='/static/map_pin.png' style={{height: 100, display: 'block', margin: '0 auto'}} />
           <Typography.Text type="secondary" style={{ display: 'block', margin: 10, textAlign: 'center' }} >地點</Typography.Text>
           <Typography.Title style={{ margin: 10, textAlign: 'center' }} level={4}>臺灣</Typography.Title>
         </Card>
       </Col>
-      <Col span={8}>
+      <Col xs={24} sm={12} md={12} lg={8} xl={8}>
         <Card>
             <img src='/static/hotpot.png' style={{height: 100, display: 'block', margin: '0 auto'}} />
             <Typography.Text type="secondary" style={{ display: 'block', margin: 10, textAlign: 'center' }} >喜歡的食物</Typography.Text>
             <Typography.Title style={{ margin: 10, textAlign: 'center' }} level={4}>火鍋</Typography.Title>
         </Card>
       </Col>
-      <Col span={8}>
+      <Col xs={24} sm={12} md={12} lg={8} xl={8}>
         <Card>
             <img src='/static/learning.png' style={{height: 100, display: 'block', margin: '0 auto'}} />
             <Typography.Text type="secondary" style={{ display: 'block', margin: 10, textAlign: 'center' }} >學習方式</Typography.Text>
             <Typography.Title style={{ margin: 10, textAlign: 'center' }} level={4}>書 & 網路資源</Typography.Title>
         </Card>
       </Col>
-      <Col span={8}>
+      <Col xs={24} sm={12} md={12} lg={8} xl={8}>
         <Card>
             <img src='/static/violin.png' style={{height: 100, display: 'block', margin: '0 auto'}} />
             <Typography.Text type="secondary" style={{ display: 'block', margin: 10, textAlign: 'center' }} >最近才開始</Typography.Text>
             <Typography.Title style={{ margin: 10, textAlign: 'center' }} level={4}>小提琴</Typography.Title>
         </Card>
       </Col>
-      <Col span={8}>
+      <Col xs={24} sm={12} md={12} lg={8} xl={8}>
         <Card>
             <img src='/static/swimming.png' style={{height: 100, display: 'block', margin: '0 auto'}} />
             <Typography.Text type="secondary" style={{ display: 'block', margin: 10, textAlign: 'center' }} >興趣</Typography.Text>
             <Typography.Title style={{ margin: 10, textAlign: 'center' }} level={4}>游泳</Typography.Title>
         </Card>
       </Col>
-      <Col span={8}>
+      <Col xs={24} sm={12} md={12} lg={8} xl={8}>
         <Card>
             <img src='/static/bike.png' style={{height: 100, display: 'block', margin: '0 auto'}} />
             <Typography.Text type="secondary" style={{ display: 'block', margin: 10, textAlign: 'center' }} >興趣</Typography.Text>
