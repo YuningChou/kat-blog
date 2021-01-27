@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 import { Tabs, Tag, Divider } from 'antd';
-import { BookOutlined, ExperimentOutlined } from '@ant-design/icons';
+import { BookOutlined, ExperimentOutlined, IdcardOutlined } from '@ant-design/icons';
 import MainLayout from './../layouts/main.layout';
 import Components from './../components';
 
@@ -32,7 +32,18 @@ export const AllBlogsQuery = graphql`
 const Home = ({ data }) => {
   return (
     <MainLayout>
-      <Tabs className="main-tabs" defaultActiveKey="blog">
+      <Tabs className="main-tabs" defaultActiveKey="about">
+        <Tabs.TabPane
+          tab={
+            <span>
+              <IdcardOutlined />
+              About
+            </span>
+          }
+          key="about"
+        >
+          <Components.About />
+        </Tabs.TabPane>
         <Tabs.TabPane
           tab={
             <span>
@@ -42,12 +53,6 @@ const Home = ({ data }) => {
           }
           key="blog"
         >
-          <div className="tags">
-            {data.allMarkdownRemark.group.map((item) => {
-              return <Tag key={item.tag}>{item.tag}</Tag>
-            })}
-          </div>
-          <Divider />
           <Components.PostList data={data}/>
         </Tabs.TabPane>
         <Tabs.TabPane

@@ -14,13 +14,6 @@ const PostList = ({ data }) => (
           return (
             <List.Item
               key={path}
-              extra={
-                <img
-                  width={272}
-                  alt="blog-img"
-                  src="https://picsum.photos/250/150"
-                />
-              }
               actions={[author, `發佈於 ${date}`]}
           >
             <List.Item.Meta 

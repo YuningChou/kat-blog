@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Card, Avatar, Divider, Button, Row, Col, Progress } from 'antd';
+import { Card, Avatar, Divider, Button, Row, Col } from 'antd';
 import { GithubOutlined, LaptopOutlined, EnvironmentOutlined, MailOutlined, LinkedinOutlined } from '@ant-design/icons';
 
 const MeCard = () => (
@@ -8,7 +8,8 @@ const MeCard = () => (
     <Avatar
       className="nameCard-avatar"
       src='/avatar.png'
-      size={{ xs: 100, sm: 100, md: 100, lg: 100, xl: 100, xxl: 120 }}
+      shape="square"
+      size={{ xs: 150, sm: 150, md: 150, lg: 150, xl: 150, xxl: 200 }}
     />
     <h1>Kat Chou</h1>
     <h5>Hey there, I'm Kat! ✨ </h5>
