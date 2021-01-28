@@ -1,12 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Layout, Row, Col, BackTop } from 'antd';
+import { Layout, Row, Col, BackTop, Tag } from 'antd';
 import Components from "./../components";
 import "./../styles/main.scss";
 
 const MainLayout = ({ children }) => (
   <>
-    <BackTop visibilityHeight={100} />
+    <BackTop visibilityHeight={100} >
+      <div>
+        <img src="/onigiri_ume.png" style={{width: 40, height: 40}} />
+        <Tag color="#1c2123" style={{width: 40, textAlign: 'center', margin: 0}}>Top</Tag>
+      </div>
+    </BackTop>
     <Components.SEO/>
     <Layout className="layout">
       <Layout.Header>
