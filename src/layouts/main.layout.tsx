@@ -15,7 +15,7 @@ const MainLayout = ({ children }) => (
     <Components.SEO/>
     <Layout className="layout">
       <Layout.Header>
-        <h1>K A T</h1>
+        <h1>K <img src="/onigiri_ume.png" style={{width: 60, height: 60, margin: '10px 10px 15px 15px'}} /> T</h1>
       </Layout.Header>
       <Layout.Content className="content">
         <Row gutter={16}>
