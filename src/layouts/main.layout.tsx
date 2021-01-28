@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Layout, Row, Col, BackTop, Tag } from 'antd';
 import Components from "./../components";
 import "./../styles/main.scss";
+import { Link } from "gatsby";
 
 const MainLayout = ({ children }) => (
   <>
@@ -15,7 +16,9 @@ const MainLayout = ({ children }) => (
     <Components.SEO/>
     <Layout className="layout">
       <Layout.Header>
-        <h1>K <img src="/onigiri_ume.png" style={{width: 60, height: 60, margin: '10px 10px 15px 15px'}} /> T</h1>
+        <Link to="/">
+          <h1>K <img src="/onigiri_ume.png" style={{width: 60, height: 60, margin: '10px 10px 15px 15px'}} /> T</h1>
+        </Link>
       </Layout.Header>
       <Layout.Content className="content">
         <Row gutter={16}>

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { graphql } from "gatsby";
 import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
-import { Tabs, Tag, Divider } from 'antd';
-import { BookOutlined, ExperimentOutlined, IdcardOutlined } from '@ant-design/icons';
+import { Tabs } from 'antd';
 import MainLayout from './../layouts/main.layout';
 import Components from './../components';
 
@@ -33,13 +32,15 @@ const Home = ({ data }) => {
   const [activePage, setActivePage] = useState('about');
   return (
     <MainLayout>
-      <Tabs className="main-tabs" defaultActiveKey={activePage}>
+      <Tabs 
+        className="main-tabs" 
+        defaultActiveKey={activePage}>
         <Tabs.TabPane
           tab={
-            <span>
-              <IdcardOutlined />
+            <>  
+              <img src="/onigiri_ume.png" style={{width: 30, height: 30, marginRight: 5 }} />
               About
-            </span>
+            </>
           }
           key="about"
         >
@@ -47,10 +48,10 @@ const Home = ({ data }) => {
         </Tabs.TabPane>
         <Tabs.TabPane
           tab={
-            <span>
-              <BookOutlined />
+            <>  
+              <img src="/blog.png" style={{width: 30, height: 30, marginRight: 5 }} />
               Blog
-            </span>
+            </>
           }
           key="blog"
         >
@@ -58,10 +59,10 @@ const Home = ({ data }) => {
         </Tabs.TabPane>
         <Tabs.TabPane
           tab={
-            <span>
-              <ExperimentOutlined />
+            <>  
+              <img src="/project.png" style={{width: 30, height: 30, marginRight: 5 }} />
               Projects
-            </span>
+            </>
           }
           key="projects"
         >

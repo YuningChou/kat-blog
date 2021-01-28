@@ -25,7 +25,7 @@ const PostList = ({ data }) => {
           )
         }
       }
-      pagination={{pageSize: 5, size: 'small'}}
+      pagination={{pageSize: 7, size: 'small'}}
     />
   )
 };
