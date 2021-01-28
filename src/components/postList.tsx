@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 import { List, Tag } from 'antd';
 import { Post } from './../types/post.type';
 
-const PostList = ({ data }) => (
-  <>
+const PostList = ({ data }) => {
+  return (
     <List
         itemLayout="vertical"
         size="large"
@@ -27,7 +27,7 @@ const PostList = ({ data }) => (
       }
       pagination={{pageSize: 5, size: 'small'}}
     />
-  </>
-);
+  )
+};
 
 export default PostList;

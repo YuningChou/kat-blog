@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import MainLayout from './../layouts/main.layout';
 import './../styles/blogTemplate.scss';
-import { Typography, Divider } from 'antd';
+import { Typography, Divider, PageHeader } from 'antd';
 import { LeftOutlined } from '@ant-design/icons';
 
 export const postQuery = graphql`
@@ -19,7 +19,7 @@ export const postQuery = graphql`
   }
 `;
 
-const Template = ({ data }) => {
+const Template = ({ data, onBack }) => {
     const post = data.markdownRemark;
     const { title, author, date } = post.frontmatter;
     return(

@@ -3,9 +3,10 @@ import { Link } from "gatsby";
 import { Row, Col, Card, Tag, Carousel, Image } from 'antd';
 import { GithubOutlined, LinkOutlined } from '@ant-design/icons';
 
-const ProjectList = () => (
-  <Row gutter={[8,8]} className="projectList">
-      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
+const ProjectList = () => {
+  return (
+    <Row gutter={[8,8]} className="projectList">
+        <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -39,8 +40,8 @@ const ProjectList = () => (
                 }
             />
         </Card>
-      </Col>
-      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
+        </Col>
+        <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -74,8 +75,8 @@ const ProjectList = () => (
                 }
             />
         </Card>
-      </Col>
-      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
+        </Col>
+        <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -105,8 +106,8 @@ const ProjectList = () => (
                 }
             />
         </Card>
-      </Col>
-      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
+        </Col>
+        <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -142,8 +143,8 @@ const ProjectList = () => (
                 }
             />
         </Card>
-      </Col>
-      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
+        </Col>
+        <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -173,8 +174,8 @@ const ProjectList = () => (
                 }
             />
         </Card>
-      </Col>
-      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
+        </Col>
+        <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -208,8 +209,8 @@ const ProjectList = () => (
                 }
             />
         </Card>
-      </Col>
-      <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
+        </Col>
+        <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
         <Card
             cover={
                 <Carousel autoplay>
@@ -236,8 +237,9 @@ const ProjectList = () => (
                 }
             />
         </Card>
-      </Col>
-  </Row>
-);
+        </Col>
+    </Row>
+  )
+};
 
 export default ProjectList;

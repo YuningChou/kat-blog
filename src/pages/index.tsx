@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { graphql } from "gatsby";
 import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 import { Tabs, Tag, Divider } from 'antd';
@@ -30,9 +30,10 @@ export const AllBlogsQuery = graphql`
 `
 
 const Home = ({ data }) => {
+  const [activePage, setActivePage] = useState('about');
   return (
     <MainLayout>
-      <Tabs className="main-tabs" defaultActiveKey="about">
+      <Tabs className="main-tabs" defaultActiveKey={activePage}>
         <Tabs.TabPane
           tab={
             <span>
@@ -53,7 +54,7 @@ const Home = ({ data }) => {
           }
           key="blog"
         >
-          <Components.PostList data={data}/>
+          <Components.PostList data={data} />
         </Tabs.TabPane>
         <Tabs.TabPane
           tab={

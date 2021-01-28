@@ -1,6 +1,6 @@
 @import './responsive.scss';
 $color-primary: #2bbc8a;
-$color-second: #4d9aff;
+$color-second: rgb(77, 154, 255);
 $color-bg: #1c2022;
 .layout {
   background: $color-bg;
@@ -57,5 +57,17 @@ $color-bg: #1c2022;
         height: 180px
       }
     }
+  }
+}
+.http-404 {
+  height: 100vh;
+  background: $color-bg;
+  .ant-result-title {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .ant-result-subtitle {
+    color: white;
   }
 }
