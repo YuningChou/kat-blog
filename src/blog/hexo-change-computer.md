@@ -1,5 +1,5 @@
 ---
-path: '/hexo-change-computer'
+path: '/blog/hexo-change-computer'
 date: '2018-02-13'
 title: 'hexo-換電腦'
 author: 'Kat Chou'

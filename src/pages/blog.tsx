@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { graphql, Link } from "gatsby";
 import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 import { Menu } from 'antd';
-import {MailOutlined} from '@ant-design/icons';
 import MainLayout from './../layouts/main.layout';
 import Components from './../components';
 
@@ -29,8 +28,8 @@ export const AllBlogsQuery = graphql`
   }
 `
 
-const Home = ({ data }) => {
-  const [activePage, setActivePage] = useState('about');
+const Blog = ({ data }) => {
+  const [activePage, setActivePage] = useState('blog');
   const handleClick = (e) => {
     setActivePage(e.key);
   }
@@ -44,7 +43,7 @@ const Home = ({ data }) => {
           <Link to="/blog">Blog</Link>
         </Menu.Item>
         <Menu.Item key="projects" icon={<img src="/project.png" style={{width: 30, height: 30, marginRight: 5 }} />}>
-          <Link to="/projects">Projects</Link>  
+            <Link to="/projects">Projects</Link>  
         </Menu.Item>
       </Menu>
       <div style={{padding: '20px', background: 'white'}}>
@@ -56,4 +55,4 @@ const Home = ({ data }) => {
   )
 };
 deckDeckGoHighlightElement();
-export default Home;
+export default Blog;

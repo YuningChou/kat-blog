@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day3'
+path: '/blog/2018-ithelp-day3'
 date: '2017-12-06'
 title: 'Day3 : 引入reset.css之後'
 author: 'Kat Chou'

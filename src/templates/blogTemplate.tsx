@@ -25,7 +25,7 @@ const Template = ({ data, onBack }) => {
     return(
         <MainLayout>
             <div className='blogTemplate'>
-              <Link to="/"><LeftOutlined /></Link>
+              <Link to="/blog"><LeftOutlined /></Link>
               <h1>{title}</h1>
               <Typography.Text type="secondary">{`Posted by ${author} on ${date}`}</Typography.Text>  
               <Divider />       

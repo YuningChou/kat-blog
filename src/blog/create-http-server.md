@@ -1,5 +1,5 @@
 ---
-path: '/create-http-server'
+path: '/blog/create-http-server'
 date: '2019-03-20'
 title: '畫面刻完後想加個http server'
 author: 'Kat Chou'

@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day24'
+path: '/blog/2018-ithelp-day24'
 date: '2017-12-27'
 title: 'Day 24 : firebase (一)'
 author: 'Kat Chou'

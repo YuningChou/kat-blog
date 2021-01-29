@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day20'
+path: '/blog/2018-ithelp-day20'
 date: '2017-12-23'
 title: 'Day 20 : CRUD 的練習'
 author: 'Kat Chou'

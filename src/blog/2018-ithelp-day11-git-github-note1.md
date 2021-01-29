@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day11'
+path: '/blog/2018-ithelp-day11'
 date: '2017-12-14'
 title: 'Day 11 : Git & Github 學習筆記（一）'
 author: 'Kat Chou'

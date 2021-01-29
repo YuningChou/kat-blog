@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day6'
+path: '/blog/2018-ithelp-day6'
 date: '2017-12-09'
 title: 'Day6 : 幾個Sass寫法'
 author: 'Kat Chou'

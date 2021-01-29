@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day5'
+path: '/blog/2018-ithelp-day5'
 date: '2017-12-08'
 title: 'Day5 : 預覽'
 author: 'Kat Chou'

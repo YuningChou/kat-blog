@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day4'
+path: '/blog/2018-ithelp-day4'
 date: '2017-12-07'
 title: 'Day4 : 人人都說Sass好，所以我來參一腳'
 author: 'Kat Chou'

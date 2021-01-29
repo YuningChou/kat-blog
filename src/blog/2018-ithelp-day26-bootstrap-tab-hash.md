@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day26'
+path: '/blog/2018-ithelp-day26'
 date: '2017-12-29'
 title: 'Day 26 : bootstrap tab hash （瓶#間）'
 author: 'Kat Chou'

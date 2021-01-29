@@ -1,5 +1,5 @@
 ---
-path: '/graphql-yoga'
+path: '/blog/graphql-yoga'
 date: '2020-11-09'
 title: 'GraphQL-graphql-yoga'
 author: 'Kat Chou'

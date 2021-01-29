@@ -4,7 +4,7 @@ import { Typography, Row, Col, Card } from 'antd';
 import { Post } from './../types/post.type';
 
 const About = () => (
-  <div style={{padding: '20px', background: 'white'}}>
+  <>
     <Typography.Title level={2}>About Me</Typography.Title>
     <Typography.Paragraph>Hi，我是 Kat Chou。</Typography.Paragraph>
     <Typography.Paragraph>我是一個 Web 前端開發人員，對各種 Web 技術充滿熱情，喜歡自學且持續學習。</Typography.Paragraph>
@@ -63,7 +63,7 @@ const About = () => (
         </Card>
       </Col>
     </Row>
-  </div >
+  </>
 );
 
 export default About;

@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day2'
+path: '/blog/2018-ithelp-day2'
 date: '2017-12-05'
 title: 'Day2: RWD斷點'
 author: 'Kat Chou'

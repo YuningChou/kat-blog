@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day15'
+path: '/blog/2018-ithelp-day15'
 date: '2017-12-18'
 title: 'Day 15 : d3 學習筆記 - 用資料繪圖'
 author: 'Kat Chou'

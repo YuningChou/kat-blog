@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day19'
+path: '/blog/2018-ithelp-day19'
 date: '2017-12-22'
 title: 'Day 19 : before() - JavaScript & jQuery'
 author: 'Kat Chou'

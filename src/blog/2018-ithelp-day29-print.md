@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day29'
+path: '/blog/2018-ithelp-day29'
 date: '2018-01-01'
 title: 'Day 29 : 列印'
 author: 'Kat Chou'

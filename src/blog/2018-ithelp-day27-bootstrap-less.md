@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day27'
+path: '/blog/2018-ithelp-day27'
 date: '2017-12-30'
 title: 'Day 27 : Bootstrap Less 使用方法'
 author: 'Kat Chou'

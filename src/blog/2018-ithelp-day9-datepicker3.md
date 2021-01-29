@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day9'
+path: '/blog/2018-ithelp-day9'
 date: '2017-12-12'
 title: 'Day9 : 做個DatePicker (三) - 事件'
 author: 'Kat Chou'

@@ -1,5 +1,5 @@
 ---
-path: '/ant-design-form-multipart-form-data'
+path: '/blog/ant-design-form-multipart-form-data'
 date: '2019-03-20'
 title: 'ant-design form multipart/form-data'
 author: 'Kat Chou'

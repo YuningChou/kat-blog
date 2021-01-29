@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day16'
+path: '/blog/2018-ithelp-day16'
 date: '2017-12-19'
 title: 'Day 16 : 1/2'
 author: 'Kat Chou'

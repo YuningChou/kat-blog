@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day7'
+path: '/blog/2018-ithelp-day7'
 date: '2017-12-10'
 title: 'Day7 : 做個DatePicker (一) - 靜態結構+樣式'
 author: 'Kat Chou'

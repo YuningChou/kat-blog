@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day10'
+path: '/blog/2018-ithelp-day10'
 date: '2017-12-13'
 title: 'Day 10 : Bootstrap 列印'
 author: 'Kat Chou'

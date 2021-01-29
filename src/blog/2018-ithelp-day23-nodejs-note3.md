@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day23'
+path: '/blog/2018-ithelp-day23'
 date: '2017-12-26'
 title: 'Day 23 : Node.js 跟著做（三）'
 author: 'Kat Chou'

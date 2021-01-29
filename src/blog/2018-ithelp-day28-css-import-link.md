@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day28'
+path: '/blog/2018-ithelp-day28'
 date: '2017-12-31'
 title: 'Day 28 : css 的 link 和 @import'
 author: 'Kat Chou'

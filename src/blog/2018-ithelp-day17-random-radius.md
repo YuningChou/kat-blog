@@ -1,5 +1,5 @@
 ---
-path: '/2018-ithelp-day17'
+path: '/blog/2018-ithelp-day17'
 date: '2017-12-20'
 title: 'Day 17 : 隨機圓角'
 author: 'Kat Chou'
