@@ -66,7 +66,6 @@ const MeCard = () => (
         <ul>
           <li>Git/GitHub/GitLab </li>
           <li>ESLint</li>
-          <li>Jest</li>
           <li>Adobe Photoshop</li>
         </ul>
       </Col>
