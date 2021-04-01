@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { graphql, Link } from "gatsby";
 import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 import { Menu } from 'antd';
-import MainLayout from './../layouts/main.layout';
-import Components from './../components';
+import MainLayout from '../layouts/main.layout';
+import Components from '../components';
 
 export const AllBlogsQuery = graphql`
   query {
@@ -28,8 +28,8 @@ export const AllBlogsQuery = graphql`
   }
 `
 
-const Blog = ({ data }) => {
-  const [activePage, setActivePage] = useState('projects');
+const Resume = ({ data }) => {
+  const [activePage, setActivePage] = useState('resume');
   const handleClick = (e) => {
     setActivePage(e.key);
   }
@@ -59,4 +59,4 @@ const Blog = ({ data }) => {
   )
 };
 deckDeckGoHighlightElement();
-export default Blog;
+export default Resume;

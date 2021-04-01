@@ -46,11 +46,15 @@ const Home = ({ data }) => {
         <Menu.Item key="projects" icon={<img src="/project.png" style={{width: 30, height: 30, marginRight: 5 }} />}>
           <Link to="/projects">Projects</Link>  
         </Menu.Item>
+        <Menu.Item key="resume" icon={<img src="/blog.png" style={{width: 30, height: 30, marginRight: 5 }} />}>
+          <Link to="/resume">Resume</Link>  
+        </Menu.Item>
       </Menu>
       <div style={{padding: '20px', background: 'white'}}>
         {activePage == 'about' && <Components.About />}
         {activePage == 'blog' && <Components.PostList data={data} />}
         {activePage == 'projects' && <Components.ProjectList />}
+        {activePage == 'resume' && <Components.Resume />}
       </div>
     </MainLayout>
   )

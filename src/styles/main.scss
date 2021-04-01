@@ -71,3 +71,15 @@ $color-bg: #1c2022;
     color: white;
   }
 }
+.resume {
+  .jobTitle {
+    color: #3f51b5;
+  }
+  .workPeriod {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .skill {
+    font-style: italic;
+  }
+}
