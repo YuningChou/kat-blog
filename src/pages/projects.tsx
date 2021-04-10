@@ -5,30 +5,8 @@ import { Menu } from 'antd';
 import MainLayout from './../layouts/main.layout';
 import Components from './../components';
 
-export const AllBlogsQuery = graphql`
-  query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      group(field: frontmatter___tags) {
-        tag: fieldValue
-        totalCount
-      }
-      edges {
-        node {
-          frontmatter {
-            title
-            path
-            description
-            date(formatString: "YYYY-MM-DD")
-            author
-            tags
-          }
-        }
-      }
-    }
-  }
-`
 
-const Blog = ({ data }) => {
+const Projects = ({ data }) => {
   const [activePage, setActivePage] = useState('projects');
   const handleClick = (e) => {
     setActivePage(e.key);
@@ -59,4 +37,4 @@ const Blog = ({ data }) => {
   )
 };
 deckDeckGoHighlightElement();
-export default Blog;
+export default Projects;
