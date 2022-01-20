@@ -14,10 +14,37 @@ const Resume = () => {
       case 'en': 
         return (
           <>
+            <Typography.Title level={3} className="jobTitle">Frontend Software Engineer, 
+              <Typography.Link href="https://www.clinico.com.tw/" target="_blank"> Hygeai Informatix, Inc</Typography.Link>
+            </Typography.Title>
+            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> JUNE 2018 - PRESENT</Typography.Text>
+            <Typography.Paragraph>
+              <ul>
+                <li>
+                  Identify business requirements.
+                </li>
+                <li>
+                  Collaborated with product team members to implement new feature developments.
+                </li>
+                <li>
+                  Maintaining, optimizing, troubleshooting, and improving websites.
+                </li>
+              </ul>
+            </Typography.Paragraph>
+            <Typography.Title level={5}>Projects:</Typography.Title>
+            <Typography.Paragraph>
+              <ul>
+                <li>
+                  HIS system
+                </li>
+              </ul>
+            </Typography.Paragraph>
+            <Typography.Text type="secondary" className="skill">Skill: #Javascript, #Vue, #CSS, #SASS, #Tailwind, #Git</Typography.Text>
+
             <Typography.Title level={3} className="jobTitle">Front end developer, 
               <Typography.Link href="https://www.clinico.com.tw/" target="_blank"> Clinico</Typography.Link>
             </Typography.Title>
-            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> OCTOBER 2018 - PRESENT</Typography.Text>
+            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> OCTOBER 2018 - MAY 2021</Typography.Text>
             <Typography.Paragraph>
               <ul>
                 <li>
@@ -134,9 +161,36 @@ const Resume = () => {
         return (
           <>
             <Typography.Title level={3} className="jobTitle">前端工程師, 
+              <Typography.Link href="https://www.clinico.com.tw/" target="_blank"> 采醫智展</Typography.Link>
+            </Typography.Title>
+            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> 2021/06 - 仍在職</Typography.Text>
+            <Typography.Paragraph>
+              <ul>
+                <li>
+                  醫療資訊系統前端開發。
+                </li>
+                <li>
+                  根據需求規劃新的版面改版及功能實現，改善原系統介面操作複雜問題。
+                </li>
+                <li>
+                  重構原系統架構，將看診畫面使用之元件化，有效改善程式擴充性、複用性，節省維護時間。
+                </li>
+              </ul>
+            </Typography.Paragraph>
+            <Typography.Title level={5}>Projects:</Typography.Title>
+            <Typography.Paragraph>
+              <ul>
+                <li>
+                  醫療資訊系統 HIS
+                </li>
+              </ul>
+            </Typography.Paragraph>
+            <Typography.Text type="secondary" className="skill">Skill: #Javascript, #Vue, #CSS, #SASS, #Tailwind, #Git</Typography.Text>
+
+            <Typography.Title level={3} className="jobTitle">前端工程師, 
               <Typography.Link href="https://www.clinico.com.tw/" target="_blank"> 科林儀器</Typography.Link>
             </Typography.Title>
-            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> 2018/10 - 仍在職</Typography.Text>
+            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> 2018/10 - 2021/05</Typography.Text>
             <Typography.Paragraph>
               <ul>
                 <li>

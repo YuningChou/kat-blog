@@ -26,6 +26,76 @@ const ProjectList = () => {
                 onCloseModal={handleCloseModal} 
             />
             <Row gutter={[8,8]} className="projectList">
+            <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
+                <Card
+                    cover={
+                        <Image
+                            alt="hixcare-clinic-opdMaster"
+                            src="/projects/hixcare-opdMaster.png"
+                        />
+                    }
+                    actions={[
+                        <span 
+                            onClick={() => {
+                                setModalTitle('HygeAI-Hixcare');
+                                setModalContent(
+                                    <Row gutter={16}>
+                                        <Col xs={24} sm={24} md={12} lg={10} xl={10}>
+                                            <Carousel style={{ background: '#1c2022' }}>
+                                                <Image
+                                                    alt="hixcare-clinic-opdMaster"
+                                                    src="/projects/hixcare-opdMaster.png"
+                                                />
+                                                <Image
+                                                    alt="hixcare-clinic-order"
+                                                    src="/projects/hixcare-order.png"
+                                                />
+                                                <Image
+                                                    alt="kit"
+                                                    src="/projects/kit.png"
+                                                />
+                                            </Carousel>
+                                            <Divider />
+                                            <div>
+                                                <Tag color="#4fc08d">vue.js</Tag>
+                                                <Tag color="#38bdf8">Tailwind</Tag>
+                                            </div>
+                                        </Col>
+                                        <Col xs={24} sm={24} md={12} lg={14} xl={14}>
+                                            <h3>描述：</h3>
+                                            <p> 
+                                                主專案為診所使用的營運系統: 主要功能有診所的行政作業（掛號、批價、門診醫令）。
+                                            </p>
+                                            <p>
+                                                畫面為門診醫令: 醫師使用此畫面來做看診，紀錄病患主訴、下醫令、診斷，派單等功能。
+                                            </p>
+                                            <h3>備註： </h3>
+                                            <p> 
+                                                因應診所業務需要，客製的 Component 增加，因此捨棄原來專案使用的 BootstrapVue 框架提供的 Components，改為自製 Component 搭配 Tailwind 的樣式設計。
+                                            </p>
+                                        </Col>
+                                    </Row>
+                                )
+                                setModalVisible(true);
+                            }}>
+                                <MessageOutlined /> 專案描述
+                        </span> 
+                    ]}
+                >
+                    <Card.Meta
+                        title="Hixcare 醫師看診"
+                        description={
+                            <>
+                            Hixcare 醫師看診
+                            <div>
+                                <Tag color="#4fc08d">vue.js</Tag>
+                                <Tag color="#38bdf8">Tailwind</Tag>
+                            </div>
+                            </>
+                        }
+                    />
+                </Card>
+                </Col>
                 <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
                 <Card
                     cover={
