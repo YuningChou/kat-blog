@@ -29,6 +29,76 @@ const ProjectList = () => {
             <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
                 <Card
                     cover={
+                        <Carousel style={{ background: '#1c2022' }}>
+                            <Image
+                                alt="富蘭克林投顧"
+                                src="/projects/franklin.png"
+                            />
+                            <Image
+                                alt="富蘭克林投顧官網-SEO"
+                                src="/projects/franklin-seo.png"
+                            />
+                        </Carousel>
+                    }
+                    actions={[
+                        <span 
+                            onClick={() => {
+                                setModalTitle('富蘭克林投顧官網');
+                                setModalContent(
+                                    <Row gutter={16}>
+                                        <Col xs={24} sm={24} md={12} lg={10} xl={10}>
+                                            <Carousel style={{ background: '#1c2022' }}>
+                                                <Image
+                                                    alt="富蘭克林投顧官網"
+                                                    src="/projects/franklin.png"
+                                                />
+                                                <Image
+                                                    alt="富蘭克林投顧官網-SEO"
+                                                    src="/projects/franklin-seo.png"
+                                                />
+                                            </Carousel>
+                                            <Divider />
+                                            <div>
+                                                <Tag color="#4fc08d">nuxt.js</Tag>
+                                                <Tag color="#3f9eff">Element UI</Tag>
+                                            </div>
+                                        </Col>
+                                        <Col xs={24} sm={24} md={12} lg={14} xl={14}>
+                                            <h3>描述：</h3>
+                                            <p> 
+                                                富蘭克林投顧原來網站並無 RWD，而是採用另作一版 mobile 版的網頁，需求改為使用 RWD 方式將網頁改版，
+                                                目前經手項目為：基金明細頁、基金總覽等等...。
+                                            </p>
+                                            <p> 
+                                                專案採用 Nuxt 框架，達到 SSR 目的進而優化 SEO，
+                                                目前基金明細頁在 Google PageSpeed Insights SEO 跑分達到90以上分數
+                                            </p>   
+                                        </Col>
+                                    </Row>
+                                )
+                                setModalVisible(true);
+                            }}>
+                                <MessageOutlined /> 專案描述
+                        </span>,       
+                        <Link to="https://www.franklin.com.tw/Fund/InvestmentTarget/0839" target="_blank">
+                            <LinkOutlined />
+                        </Link>      
+                    ]}
+                >
+                    <Card.Meta
+                        title="富蘭克林投顧官網"
+                        description={
+                            <div>
+                                <Tag color="#4fc08d">nuxt.js</Tag>
+                                <Tag color="#3f9eff">Element UI</Tag>
+                            </div>
+                        }
+                    />
+                </Card>
+            </Col>
+            <Col sm={{span: 24}} md={{span: 12}} lg={{span: 8}}>
+                <Card
+                    cover={
                         <Image
                             alt="hixcare-clinic-opdMaster"
                             src="/projects/hixcare-opdMaster.png"

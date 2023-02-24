@@ -14,10 +14,34 @@ const Resume = () => {
       case 'en': 
         return (
           <>
+            <Typography.Title level={3} className="jobTitle">Frontend Engineer, 
+              <Typography.Link href="https://www.clinico.com.tw/" target="_blank"> FRANKLIN TEMPLETON INVESTMENTS</Typography.Link>
+            </Typography.Title>
+            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> May 2022 - PRESENT</Typography.Text>
+            <Typography.Paragraph>
+              <ul>
+                <li>
+                  Collaborated with product team members to implement new feature developments.
+                </li>
+                <li>
+                  Maintaining, optimizing, troubleshooting, and improving websites.
+                </li>
+              </ul>
+            </Typography.Paragraph>
+            <Typography.Title level={5}>Projects:</Typography.Title>
+            <Typography.Paragraph>
+              <ul>
+                <li>
+                  <a href="https://www.franklin.com.tw/Fund/BasicInformation/0839" target="_blank">Fund Details</a>
+                </li>
+              </ul>
+            </Typography.Paragraph>
+            <Typography.Text type="secondary" className="skill">Skill: #VueJS #JavaScript #CSS #HTML #Git #Sass</Typography.Text>
+
             <Typography.Title level={3} className="jobTitle">Frontend Software Engineer, 
               <Typography.Link href="https://www.clinico.com.tw/" target="_blank"> Hygeai Informatix, Inc</Typography.Link>
             </Typography.Title>
-            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> JUNE 2018 - PRESENT</Typography.Text>
+            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> JUNE 2021 - APRIL 2022</Typography.Text>
             <Typography.Paragraph>
               <ul>
                 <li>
@@ -160,10 +184,37 @@ const Resume = () => {
       case 'zh': 
         return (
           <>
+          <Typography.Title level={3} className="jobTitle">前端工程師, 
+              <Typography.Link href="https://www.clinico.com.tw/" target="_blank">富蘭克林證券投資顧問股份有限公司</Typography.Link>
+            </Typography.Title>
+            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> 2022/05 - 仍在職</Typography.Text>
+            <Typography.Paragraph>
+              <ul>
+                <li>
+                  官網： 新版官網切版、RWD，使用 nuxt.js 
+                </li>
+                <li>
+                  交易系統維護： 根據 PM 提出需求實作功能
+                </li>
+                <li>
+                  活動頁面製作：根據行銷企劃提出需求實作活動頁
+                </li>
+              </ul>
+            </Typography.Paragraph>
+            <Typography.Title level={5}>Projects:</Typography.Title>
+            <Typography.Paragraph>
+              <ul>
+                <li>
+                  <a href="https://www.franklin.com.tw/Fund/BasicInformation/0839" target="_blank">官網</a>
+                </li>
+              </ul>
+            </Typography.Paragraph>
+            <Typography.Text type="secondary" className="skill">Skill: #VueJS #JavaScript #CSS #HTML #Git #Sass</Typography.Text>
+
             <Typography.Title level={3} className="jobTitle">前端工程師, 
               <Typography.Link href="https://www.clinico.com.tw/" target="_blank"> 采醫智展</Typography.Link>
             </Typography.Title>
-            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> 2021/06 - 仍在職</Typography.Text>
+            <Typography.Text type="secondary" className="workPeriod"><CalendarOutlined /> 2021/06 - 2022/04</Typography.Text>
             <Typography.Paragraph>
               <ul>
                 <li>
